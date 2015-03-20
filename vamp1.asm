@@ -195,11 +195,16 @@ sts timsk0,r16 ; turn on top and mid interrupts
 
 ;setup usart0 for midi recieve
 ;8 data bits, 1 stop bit, no parity, 31.25kbps
+ldi r16,(1<<u2x0)
+sts ucsr0a,r16
 ldi r16,(1<<rxen0)
 sts ucsr0b,r16
 ldi r16,(1<<ucsz01)|(1<<ucsz00)
 sts ucsr0c,r16
-ldi r16,0x0f ; 8MHz/31.25kHz/16 - 1
+sbi portd,pd6 ; turn on pullup for baudrate select pin
+ldi r16,0x3f ; 16MHz/31.25kHz/8 - 1
+sbis pind,pd6 ; skip if pd6==1
+ldi r16,0x10 ; 16MHz/115200/8 - 1
 sts ubrr0l, r16
 
 ;fetch midi address
