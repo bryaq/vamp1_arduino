@@ -158,7 +158,7 @@ out portc,r16
 
 ;setup t1 for audio generation
 ;8b phase correct pwm, clear output on match, use both oca and ocb
-;ck/1 (31.25khz), top @ $80
+;ck/1 (31.25khz), top @ $ff
 ldi r16,(1<<com1a1)|(0<<com1a0)|(1<<com1b1)|(0<<com1b0)|(0<<wgm11)|(0<<wgm10)
 sts tccr1a,r16 ; phase and frequency correct, icr1 as top
 ldi r16,(1<<wgm13)|(0<<wgm12)|(1<<cs00)
@@ -166,16 +166,16 @@ sts tccr1b,r16 ; Fcpu/1, update ocr at bottom, overflow at bottom
 ldi r16,$00
 sts tccr1c,r16
 ldi r16,$00
-sts icr1h,r16 ; set icr1 to top, $0080
-ldi r16,$80
+sts icr1h,r16 ; set icr1 to top, $00ff
+ldi r16,$ff
 sts icr1l,r16
 ldi r16,$00
-sts ocr1ah,r16 ; set ocr1a to midrange, $003f
-ldi r16,$3f
+sts ocr1ah,r16 ; set ocr1a to midrange, $007f
+ldi r16,$7f
 sts ocr1al,r16
 ldi r16,$00
-sts ocr1bh,r16 ; set ocr1b to midrange, $003f
-ldi r16,$3f
+sts ocr1bh,r16 ; set ocr1b to midrange, $007f
+ldi r16,$7f
 sts ocr1bl,r16
 ldi r16,(1<<toie1) ; turn on overflow interrupt
 sts timsk1,r16

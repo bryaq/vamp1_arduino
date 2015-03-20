@@ -187,9 +187,6 @@ ror r18
 synth_done: ; finish off
 
 subi r19,$80 ; convert signed to unsigned for pwm output
-lsr r19 ; adjust 16b number for 14b output
-ror r18
-lsr r18
 out gpior0,r18 ; save to buffer
 out gpior1,r19
 in r31,eearl
