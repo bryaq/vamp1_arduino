@@ -1,0 +1,147 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega328P</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m328pdef.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1_defs.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\bit_crush.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\sine_256_unsigned_offset.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\notelookup_assy.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\sine_table_2k_signed.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\square.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\saw.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\ooh.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\om.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\aah.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\aay.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\eeh.inc</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\lid1.txt</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\tube2.txt</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\wv.txt</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\pot1.txt</FILE>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\noise3.txt</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>137</LINE></init>
+  <t1int><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>790</LINE></t1int>
+  <t0int_a><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>793</LINE></t0int_a>
+  <t0int_b><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>796</LINE></t0int_b>
+  <main><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>269</LINE></main>
+  <data_byte><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>314</LINE></data_byte>
+  <note_off><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>296</LINE></note_off>
+  <note_on><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>302</LINE></note_on>
+  <control><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>308</LINE></control>
+  <second_byte><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>326</LINE></second_byte>
+  <note_on_process><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>340</LINE></note_on_process>
+  <note_off_process><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>576</LINE></note_off_process>
+  <control_process><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>618</LINE></control_process>
+  <note_on_process1><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>387</LINE></note_on_process1>
+  <note2_off_0><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>355</LINE></note2_off_0>
+  <note3_off_0><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>364</LINE></note3_off_0>
+  <note4_off_0><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>373</LINE></note4_off_0>
+  <note_off_done_0><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>382</LINE></note_off_done_0>
+  <voice1_on0><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>492</LINE></voice1_on0>
+  <voice2_on0><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>513</LINE></voice2_on0>
+  <voice3_on0><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>534</LINE></voice3_on0>
+  <voice4_on0><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>555</LINE></voice4_on0>
+  <voice1_on><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>435</LINE></voice1_on>
+  <voice2_on><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>454</LINE></voice2_on>
+  <voice3_on><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>473</LINE></voice3_on>
+  <voice4_on><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>416</LINE></voice4_on>
+  <note2_off><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>587</LINE></note2_off>
+  <note3_off><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>596</LINE></note3_off>
+  <note4_off><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>605</LINE></note4_off>
+  <note_off_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>614</LINE></note_off_done>
+  <in_range><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>627</LINE></in_range>
+  <mod15><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>701</LINE></mod15>
+  <mod10><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>635</LINE></mod10>
+  <mod11><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>647</LINE></mod11>
+  <mod12><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>661</LINE></mod12>
+  <mod11a><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>656</LINE></mod11a>
+  <mod13><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>675</LINE></mod13>
+  <mod12a><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>670</LINE></mod12a>
+  <mod14><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>686</LINE></mod14>
+  <mod_none2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>697</LINE></mod_none2>
+  <mod16><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>709</LINE></mod16>
+  <mod17><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>722</LINE></mod17>
+  <mod18><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>731</LINE></mod18>
+  <mod19><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>750</LINE></mod19>
+  <mod18_2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>745</LINE></mod18_2>
+  <mod20><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>780</LINE></mod20>
+  <mod19a><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>761</LINE></mod19a>
+  <decay_up><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\vamp1.asm</FILE><LINE>771</LINE></decay_up>
+  <voice1_process><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>19</LINE></voice1_process>
+  <pwm_process><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>201</LINE></pwm_process>
+  <voice2_process><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>48</LINE></voice2_process>
+  <voice3_process><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>78</LINE></voice3_process>
+  <voice4_process><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>108</LINE></voice4_process>
+  <voice_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>138</LINE></voice_done>
+  <synth_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>187</LINE></synth_done>
+  <am_fetch_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>175</LINE></am_fetch_done>
+  <voice2_pwm><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>224</LINE></voice2_pwm>
+  <voice1_add><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>219</LINE></voice1_add>
+  <voice3_pwm><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>246</LINE></voice3_pwm>
+  <voice2_add><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>241</LINE></voice2_add>
+  <voice4_pwm><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>268</LINE></voice4_pwm>
+  <voice3_add><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>263</LINE></voice3_add>
+  <pwm_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>290</LINE></pwm_done>
+  <voice4_add><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\synth-engine.inc</FILE><LINE>285</LINE></voice4_add>
+  <fm_done1><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>25</LINE></fm_done1>
+  <fm_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>21</LINE></fm_done>
+  <freq_sweep><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>33</LINE></freq_sweep>
+  <trig_done3><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>47</LINE></trig_done3>
+  <flip_check><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>53</LINE></flip_check>
+  <voice1_trig_check2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>124</LINE></voice1_trig_check2>
+  <voice1_trig_check><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>57</LINE></voice1_trig_check>
+  <voice2_trig_check><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>72</LINE></voice2_trig_check>
+  <voice1_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>68</LINE></voice1_done>
+  <voice3_trig_check><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>87</LINE></voice3_trig_check>
+  <voice2_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>83</LINE></voice2_done>
+  <voice4_trig_check><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>102</LINE></voice4_trig_check>
+  <voice3_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>98</LINE></voice3_done>
+  <trig_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>117</LINE></trig_done>
+  <voice4_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>113</LINE></voice4_done>
+  <voice2_trig_check2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>144</LINE></voice2_trig_check2>
+  <voice1_overflow><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>135</LINE></voice1_overflow>
+  <voice1_done2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>140</LINE></voice1_done2>
+  <voice3_trig_check2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>163</LINE></voice3_trig_check2>
+  <voice2_overflow><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>154</LINE></voice2_overflow>
+  <voice2_done2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>159</LINE></voice2_done2>
+  <voice4_trig_check2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>182</LINE></voice4_trig_check2>
+  <voice3_overflow><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>173</LINE></voice3_overflow>
+  <voice3_done2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>178</LINE></voice3_done2>
+  <trig_done2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>201</LINE></trig_done2>
+  <voice4_overflow><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>192</LINE></voice4_overflow>
+  <voice4_done2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\frequency-sweep2.inc</FILE><LINE>197</LINE></voice4_done2>
+  <decays><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>67</LINE></decays>
+  <voice2_envelope><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>31</LINE></voice2_envelope>
+  <voice3_envelope><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>41</LINE></voice3_envelope>
+  <voice4_envelope><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>51</LINE></voice4_envelope>
+  <envelope_done><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>61</LINE></envelope_done>
+  <voice2_envelope2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>98</LINE></voice2_envelope2>
+  <decay1_process2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>85</LINE></decay1_process2>
+  <voice3_envelope2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>124</LINE></voice3_envelope2>
+  <decay2_process2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>111</LINE></decay2_process2>
+  <voice4_envelope2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>150</LINE></voice4_envelope2>
+  <decay3_process2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>137</LINE></decay3_process2>
+  <envelope_done2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>176</LINE></envelope_done2>
+  <decay4_process2><FILE>C:\Documents and Settings\user\Desktop\vamps\vamp1\vamp1_avr\envelope-engine.inc</FILE><LINE>163</LINE></decay4_process2>
+ </LABELS>
+</ASSEMBLER_INFO>
