@@ -797,51 +797,51 @@ t0int_b: ; do envelopes here
 .include "envelope-engine.inc"
 
 
-.org $0500 ; lookup table for bitcrusher
+.org $0680 ; lookup table for bitcrusher
 .include "bit_crush.inc"
 
-.org $0580 ; lookup table for am
+.org $0700 ; lookup table for am
 .include "sine_256_unsigned_offset.inc"
 
-.org $0600 ; lookup table for note to frequency converter
+.org $0780 ; lookup table for note to frequency converter
 .include "notelookup_assy.inc"
 
-.org $0c00 ; voice2 table
+.org $0800 ; voice2 table
 .include "sine_table_2k_signed.inc" ; 8 bit, 2048 sample, sinewave
 
-.org $1000 ; voice3 table
+.org $0c00 ; voice3 table
 .include "square.inc" ; 8 bit, 2048 sample, sinewave
 
-.org $1400 ; voice4 table
+.org $1000 ; voice4 table
 .include "saw.inc" ; 8 bit, 2048 sample
 
-.org $1800 ; voice5 table
+.org $1400 ; voice5 table
 .include "ooh.inc" ; 8 bit, 2048 sample
 
-.org $1c00 ; voice6 table
+.org $1800 ; voice6 table
 .include "om.inc" ; 8 bit, 2048 sample
 
-.org $2000 ; voice7 table
+.org $1c00 ; voice7 table
 .include "aah.inc" ; 8 bit, 2048 sample
 
-.org $2400 ; voice8 table
+.org $2000 ; voice8 table
 .include "aay.inc" ; 8 bit, 2048 sample
 
-.org $2800 ; voice9 table
+.org $2400 ; voice9 table
 .include "eeh.inc" ; 8 bit, 2048 sample
 
-.org $2c00 ; voice10 table
+.org $2800 ; voice10 table
 .include "lid1.txt" ; 8 bit, 2048 sample
 
-.org $3000 ; voice11 table
+.org $2c00 ; voice11 table
 .include "tube2.txt" ; 8 bit, 2048 sample
 
-.org $3400 ; voice12 table
+.org $3000 ; voice12 table
 .include "wv.txt" ; 8 bit, 2048 sample
 
-.org $3800 ; voice13 table
+.org $3400 ; voice13 table
 .include "pot1.txt" ; 8 bit, 2048 sample
 
-.org $3c00 ; voice14 table
+.org $3800 ; voice14 table
 .include "noise3.txt" ; 8 bit, 2048 sample
 
